@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Base theme for app
+    <style name="Theme.Calculator" parent="android:Theme.Material.Light.NoActionBar" />
+
+    //Chip Entry theme
+    <style name="chEntry" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/ch_textcolor</item>
+        <item name="chipBackgroundColor">@color/blue_light</item>
+        <item name="chipStrokeColor">@color/blue_dark</item>
+        <item name="chipStrokeWidth">2dp</item>
+    </style>
+</resources>

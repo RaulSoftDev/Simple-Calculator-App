@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.BotonCalculadora" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="AppTheme.BotonCalculadora.LightBlue" parent="AppTheme.BotonCalculadora">
+        <item name="android:background">@drawable/light_blue_button_style</item>
+    </style>
+
+    <style name="AppTheme.BotonCalculadora.DeepBlue" parent="AppTheme.BotonCalculadora">
+        <item name="android:background">@drawable/blue_button_style</item>
+    </style>
+
+    <style name="AppTheme.BotonCalculadora.Total" parent="AppTheme.BotonCalculadora">
+        <item name="android:background">@drawable/result_bg_style</item>
+        <item name="android:textColor">#353542</item>
+    </style>
+
+    <style name="AppTheme.BotonCalculadora.Clean" parent="AppTheme.BotonCalculadora">
+        <item name="android:background">@drawable/clean_button_style</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.BotonCalculadora.Equal" parent="AppTheme.BotonCalculadora">
+        <item name="android:background">@drawable/equal_button_style</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

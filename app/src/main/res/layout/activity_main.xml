@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <GridLayout
+        android:id="@+id/calc"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:rowCount="6"
+        android:columnCount="4"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="60dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/result"
+            android:tag="result"
+            style="@style/AppTheme.BotonCalculadora.Total"
+            android:text="98"
+            android:textAlignment="textEnd"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="4"
+            android:layout_marginBottom="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/c_Button"
+            android:tag="C"
+            style="@style/AppTheme.BotonCalculadora.Clean"
+            android:text="C"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/del_Button"
+            android:tag="del"
+            style="@style/AppTheme.BotonCalculadora.DeepBlue"
+            android:text="±"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/div_Button"
+            android:tag="/"
+            style="@style/AppTheme.BotonCalculadora.DeepBlue"
+            android:text="÷"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/seven_Button"
+            android:tag="7"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/eight_Button"
+            android:tag="8"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nine_Button"
+            android:tag="9"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/x_Button"
+            android:tag="x"
+            style="@style/AppTheme.BotonCalculadora.DeepBlue"
+            android:text="x"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/four_Button"
+            android:tag="4"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/five_Button"
+            android:tag="5"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/six_Button"
+            android:tag="6"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/substraction_Button"
+            android:tag="-"
+            style="@style/AppTheme.BotonCalculadora.DeepBlue"
+            android:text="-"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/one_Button"
+            android:tag="1"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/two_Button"
+            android:tag="2"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/three_Button"
+            android:tag="3"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_Button"
+            android:tag="+"
+            style="@style/AppTheme.BotonCalculadora.DeepBlue"
+            android:text="+"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dot_Button"
+            android:tag="0"
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/zero_Button"
+            android:tag="."
+            style="@style/AppTheme.BotonCalculadora.LightBlue"
+            android:text="."
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:onClick="onButtonClick"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/equal_Button"
+            android:tag="="
+            style="@style/AppTheme.BotonCalculadora.DeepBlue"
+            android:text="="
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:onClick="onButtonClick"/>
+    </GridLayout>
+
+    <com.google.android.gms.ads.AdView
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6073816739885276/8437166328">
+    </com.google.android.gms.ads.AdView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
