@@ -97,20 +97,6 @@ class MainActivity : ComponentActivity() {
         else resultText.text = currentInput.joinToString(separator = "")
     }
 
-    /*private fun delLastChar(){
-        when(currentInput.lastIndex){
-            0 -> {
-                currentInput.removeAt(currentInput.lastIndex)
-                resultText.text = "0"
-            }
-            -1 -> resultText.text = "0"
-            else -> {
-                currentInput.removeAt(currentInput.lastIndex)
-                resultText.text = currentInput.joinToString(separator = "")
-            }
-        }
-    }*/
-
     private fun clearCalcText(){
         currentInput.clear()
         number1 = null
